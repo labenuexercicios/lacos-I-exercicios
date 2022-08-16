@@ -14,8 +14,8 @@
 // "5 - Brasil"
 // ```
 
-const maioresPaises = ["GangPlank", "Nidalee", "Bardo", "Vel'koz", "Cassiopeia"];
+const personagens = ["GangPlank", "Nidalee", "Bardo", "Vel'koz", "Cassiopeia"];
 
-for(let i=0; i< maioresPaises.length; i++){
-    console.log(`${i} - ${maioresPaises[i]}`)
+for(let i=0; i< personagens.length; i++){
+    console.log(`${i+1} - ${personagens[i]}`)
 }
