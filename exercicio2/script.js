@@ -3,7 +3,7 @@
 let num = Number(prompt("Digite o número da Tabuada que deseja saber"))
 let Resultado
 
-console.log (`A Resultado escolhida foi: ${num}`)
+console.log (`Essa é a tabuada do ${num}`)
 for (i=1; i<11; i++) {
     Resultado = i*num
     console.log (`${num} x ${i} = ${Resultado}`)
