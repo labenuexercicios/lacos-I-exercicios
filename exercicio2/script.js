@@ -6,6 +6,8 @@ for (let index = 0; index < array.length; index++) {
     
 }
 */
-
-for(let i = 9; i >=9; i++)
-console.log(i*9)
+let numero = Number(prompt("Digite um número de 1 a 10"))
+for(let i = 0; i <= numero; i++) {
+    console.log(i*numero)
+}
+console.log("Tabuada de", numero);
