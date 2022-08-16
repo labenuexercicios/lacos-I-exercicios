@@ -1,8 +1,31 @@
-let confirma = String(prompt(`Você deseja comer mais?`));
+// let confirma = String(
+//   prompt(`Você deseja comer mais? \n S - para Sim \n N - para não`)
+// );
 let valorTotal = 0;
 
-while (confirma.toUpperCase() != "N") {
-  valorTotal = valorTotal + 2.5;
-  confirma = prompt(`Você deseja comer mais?`);
+// while (confirma.toUpperCase() === "S") {
+//   valorTotal = valorTotal + 2.5;
+//   confirma = prompt(`Você deseja comer mais? \n S - para Sim \n N - para não`);
+// }
+// console.log(`O Valor total da conta é: ${valorTotal}`);
+while (true) {
+  let entrada = prompt(
+    "Você deseja comer mais? \n S - para Sim \n N - para não"
+  )
+    .toUpperCase()
+    .trim();
+
+  if (entrada === "N") {
+    alert("Encerrando...");
+    break;
+  } else if (entrada === "S") {
+    valorTotal = valorTotal + 2.5;
+    confirma = prompt(
+      `Você deseja comer mais? \n S - para Sim \n N - para não`
+    );
+  } else {
+    alert("Opção inválida!");
+    continue;
+  }
 }
-console.log(`O Valor total da conta é: ${valorTotal}`);
+console.log(`O Valor total da conta é: ${valorTotal}`); 
