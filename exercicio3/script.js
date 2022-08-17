@@ -17,8 +17,13 @@
 // ```
 
 
+// let arrayPaises = ["Rússia", "Canadá", "China", "EUA", "Brasil"];
+
+// for (let i = 0; i <= 4; i++) {
+//     console.log(`${i + 1}º - ${arrayPaises[i]}`);
+// }
 let arrayPaises = ["Rússia", "Canadá", "China", "EUA", "Brasil"];
 
-for (let i = 0; i <= 4; i++) {
+for (let i = 0; i <= arrayPaises.length - 1; i++) {
     console.log(`${i + 1}º - ${arrayPaises[i]}`);
 }
