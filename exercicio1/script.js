@@ -14,12 +14,12 @@ console.log(conta);
 
 //---------------
 
-// const contaCoxinhas = (resposta) => {
+// const contaCoxinhas = (res) => {
 //     let conta = 0
 
-//     while(resposta.toUpperCase() === "S"){
+//     while(res.toUpperCase() === "S"){
 //         conta = conta + 2.5
-//         resposta = prompt("Você deseja comer mais coxinhas? Digite S para sim ou N para não")
+//         res = prompt("Você deseja comer mais coxinhas? Digite S para sim ou N para não")
 //     }
 //     console.log(conta)
 // }
