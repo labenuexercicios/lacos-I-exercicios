@@ -2,7 +2,7 @@ function coxinha () {
     let querCoxinha = prompt("Voce deseja comer mais coxinha?")
     let conta = 0;
 
-    while (querCoxinha.toLowerCase() === "sim"){
+    while (querCoxinha.toLowerCase() === "sim" || querCoxinha.toLocaleLowerCase() === "s"){
         conta = conta + 2.50;
         querCoxinha = prompt("Voce deseja comer mais coxinha?")
     }
